@@ -23,7 +23,8 @@
 - Official Docs: https://www.terraform.io/
 
 ### Secrets.tf
--  Running module or standalone terraform files requires a variables.tf (or any name) file with the following structure:
+-  Running module or standalone terraform files requires a secrets.tf (or any name) file to be located in that folder (e.g. `/dev_environment`, `/standalone/s3`, etc.).
+-  File should have with the following structure:
 ```
 variable "access_key" {
     default = "placeholder_access_key"
