@@ -1,5 +1,6 @@
 # Private Files
 *secrets.tf
+.DS_Store
 
 # Terraform base and plugins
 *terraform
